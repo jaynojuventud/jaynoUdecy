@@ -1,0 +1,7 @@
+SYSTEM: system4_orchestration
+COMMAND: /opt/pyvenv/bin/python -m pytest /mnt/data/agentic_architecture_submission/system4_orchestration/tests -q
+EXPECTED_TESTS: 33
+EXIT_CODE: 0
+
+.................................                                        [100%]
+33 passed in 0.08s

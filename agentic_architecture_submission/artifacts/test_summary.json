@@ -1,0 +1,26 @@
+{
+  "total_expected_tests": 128,
+  "all_passed": true,
+  "suites": [
+    {
+      "system": "system1_agentic_loop",
+      "expected_tests": 30,
+      "exit_code": 0
+    },
+    {
+      "system": "system2_context_strategy",
+      "expected_tests": 30,
+      "exit_code": 0
+    },
+    {
+      "system": "system3_claude_harness",
+      "expected_tests": 35,
+      "exit_code": 0
+    },
+    {
+      "system": "system4_orchestration",
+      "expected_tests": 33,
+      "exit_code": 0
+    }
+  ]
+}

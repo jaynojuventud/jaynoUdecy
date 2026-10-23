@@ -1,0 +1,6 @@
+{
+  "raw_baseline_tokens": 252,
+  "assembled_context_tokens": 95,
+  "reduction_percent": 62.3,
+  "method": "ceil(chars/4), heuristic not model tokenizer"
+}

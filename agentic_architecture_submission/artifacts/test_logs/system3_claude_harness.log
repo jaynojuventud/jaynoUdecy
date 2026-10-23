@@ -1,0 +1,7 @@
+SYSTEM: system3_claude_harness
+COMMAND: /opt/pyvenv/bin/python -m pytest /mnt/data/agentic_architecture_submission/system3_claude_harness/tests -q
+EXPECTED_TESTS: 35
+EXIT_CODE: 0
+
+...................................                                      [100%]
+35 passed in 0.05s

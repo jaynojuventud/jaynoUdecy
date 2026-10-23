@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "checks": [
+    "modular imports",
+    "path-scoped rules",
+    "slash command",
+    "forked read-only skill"
+  ],
+  "errors": []
+}

@@ -1,0 +1,62 @@
+{
+  "raw": {
+    "case_facts": {
+      "claim_id": "C-204",
+      "amount": 1200,
+      "description": "wind damage",
+      "policy_id": "P-88",
+      "risk": "routine"
+    },
+    "history": [
+      "Claim opened Monday; intake agent recorded initial loss notice and confirmed contact details",
+      "Customer called twice to ask about expected inspection timing and claim status",
+      "Adjuster reviewed photos and documented roof damage visible near the western edge",
+      "Weather report attached with regional wind speeds and precipitation observations",
+      "Old unrelated claim from 2019 concerned a different vehicle and a separate policy",
+      "Automated notification delivered and customer acknowledged receipt",
+      "Call center note says the customer prefers afternoon callbacks",
+      "Legacy system synchronization completed without a data validation error",
+      "A duplicate attachment was detected and retained for audit history",
+      "Claims operations added a generic reminder to follow standard procedures"
+    ],
+    "policies": [
+      "Claims over threshold require review",
+      "Suspected fraud escalates"
+    ]
+  },
+  "context": {
+    "case_facts": "{\"amount\":1200,\"claim_id\":\"C-204\",\"description\":\"wind damage\",\"policy_id\":\"P-88\",\"risk\":\"routine\"}",
+    "policy_summary": "Claims over threshold require review; Suspected fraud escalates",
+    "history_summary": "Claim opened Monday; intake agent recorded initial loss notice and confirmed contact details Customer called twice to [history summarized]"
+  },
+  "budget": {
+    "raw_baseline_tokens": 252,
+    "assembled_context_tokens": 95,
+    "reduction_percent": 62.3,
+    "method": "ceil(chars/4), heuristic not model tokenizer"
+  },
+  "questions": [
+    "What is the amount?",
+    "What policy applies?",
+    "What is the claim ID?",
+    "Is there damage?",
+    "Does fraud matter?",
+    "Is history available?"
+  ],
+  "full_evaluation": {
+    "What is the amount?": true,
+    "What policy applies?": true,
+    "What is the claim ID?": true,
+    "Is there damage?": true,
+    "Does fraud matter?": true,
+    "Is history available?": true
+  },
+  "control_without_case_facts": {
+    "What is the amount?": false,
+    "What policy applies?": true,
+    "What is the claim ID?": false,
+    "Is there damage?": false,
+    "Does fraud matter?": true,
+    "Is history available?": true
+  }
+}
