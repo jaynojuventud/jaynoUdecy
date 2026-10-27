@@ -1,2 +1,0 @@
-# jaynoUdecy
-for udacity
